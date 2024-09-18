@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="380.0" prefWidth="368.0" styleClass="successful" stylesheets="@design.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.DashboardController">
+   <children>
+      <Label layoutX="33.0" layoutY="197.0" prefHeight="85.0" prefWidth="304.0" text="LOGIN SUCCESSFUL" textFill="#707375">
+         <font>
+            <Font name="Times New Roman Bold" size="30.0" />
+         </font>
+      </Label>
+      <FontAwesomeIcon fill="#434546" glyphName="LOCK" layoutX="134.0" layoutY="183.0" size="13em" text="" />
+      <FontAwesomeIcon fill="#9dee8e" glyphName="CHECK" layoutX="134.0" layoutY="194.0" size="11em">
+         <effect>
+            <DropShadow height="50.31" radius="17.3275">
+               <color>
+                  <Color red="0.09502924233675003" green="0.10526315867900848" blue="0.09639376401901245" />
+               </color>
+            </DropShadow>
+         </effect>
+      </FontAwesomeIcon>
+      <Button alignment="CENTER" layoutX="64.0" layoutY="292.0" mnemonicParsing="false" onAction="#exit" prefHeight="57.0" prefWidth="241.0" style="-fx-background-color: #9dee8e; -fx-background-radius: 10px;" textAlignment="CENTER" textFill="#707375">
+         <font>
+            <Font name="Sitka Small" size="31.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.4320000112056732" green="0.44279998540878296" blue="0.44999998807907104" />
+               </color>
+            </DropShadow>
+         </effect>
+         <graphic>
+            <Label prefHeight="30.0" prefWidth="178.0" text="CONTINUE" textFill="#707375">
+               <font>
+                  <Font name="Sitka Small" size="30.0" />
+               </font>
+            </Label>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

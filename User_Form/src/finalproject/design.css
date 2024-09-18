@@ -1,0 +1,35 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 11, 2024, 3:30:11 PM
+    Author     : Nowsin
+*/
+
+.login-bg{
+/*    -fx-background-color: linear-gradient(to bottom right, #ebf5fb,#ccd1d1);*/
+    -fx-background-color:#ebf5fb;
+}
+.button-design{
+    -fx-background-color: #17202a;
+    -fx-cursor: hand;
+}
+.button-design:hover{
+    -fx-background-color:#b3b6b7;
+}
+.marco{
+/*    -fx-text-fill: #aed6f1 ;*/
+    -fx-cursor: hand;
+}
+.exit{
+    -fx-background-color: #e05a61;
+    -fx-cursor: hand;
+}
+.exit:hover{
+    -fx-background-color: #f48188;
+}
+
+.successful{
+     -fx-background-color: linear-gradient(#e8f8f5,#f8f9f9,#d5f5e3);
+}
